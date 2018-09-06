@@ -1,0 +1,23 @@
+{
+  "name": "wxapp_open",
+  "version": "1.0.6",
+  "description": "微信第三方平台(包含小程序和公众号)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wxapp",
+    "open"
+  ],
+  "dependencies": {
+    "axios": "^0.18.0",
+    "ioredis": "^3.2.2",
+    "xml2js": "^0.4.19"
+  },
+  "author": "shnavy",
+  "license": "ISC"
+}
