@@ -42,6 +42,6 @@ var pre_auth_code = await API.getPreAuthCode()
 let mp_info = await API.auth(auth_code)
 
 //4.调用api
-//设置小程序业务域名，appId为要设置的小程序appid
+//设置小程序业务域名，appId为要设置的小程序（公众号）appid
 let res = await API.setDomain(appId, action, requestdomain, wsrequestdomain, uploaddomain, downloaddomain)
 ```
