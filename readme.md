@@ -37,11 +37,11 @@ var API = new wxapp_open(componentAppid, componentAppSecret, componentKey, compo
 //2.设置ComponentVerifyTicket（微信服务器每10分钟推送一次，在使用API之前必须设置）
 API.setComponentVerifyTicket(ComponentVerifyTicket)
 
-//3.获取pre_auth_code 及授权小程序信息
+//3.获取pre_auth_code 及授权小程序（公众号）信息
 var pre_auth_code = await API.getPreAuthCode()
 let mp_info = await API.auth(auth_code)
 
 //4.调用api
-//设置小程序业务域名，appId为要设置的小程序（公众号）appid
+//设置小程序业务域名，appId为要设置的小程序appid
 let res = await API.setDomain(appId, action, requestdomain, wsrequestdomain, uploaddomain, downloaddomain)
 ```
