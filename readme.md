@@ -48,8 +48,8 @@ npm i -S https://github.com/flyseamomo/wx_open/archive/v1.0.7.tar.gz
 ```js
 //1.引入及初始化
 
-var wxapp_open = require('wxapp_open')
-var API = new wxapp_open(componentAppid, componentAppSecret, componentKey, componentToken, redisConfig)
+var wx_open_app = require('wx_open_app')
+var API = new wx_open_app(componentAppid, componentAppSecret, componentKey, componentToken, redisConfig)
 
 //2.设置ComponentVerifyTicket（微信服务器每10分钟推送一次，在使用API之前必须设置）
 API.setComponentVerifyTicket(ComponentVerifyTicket)

@@ -1,5 +1,5 @@
 {
-  "name": "wxapp_open",
+  "name": "wx_open_app",
   "version": "1.0.7",
   "description": "微信第三方平台(包含小程序和公众号)",
   "main": "index.js",
