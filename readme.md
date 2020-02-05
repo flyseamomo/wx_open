@@ -1,11 +1,4 @@
-## 重要说明
 
-从 v1.0.7 开始，本包的更新不会再同步到 npm 源，请使用者通过使用 release 压缩包的方式进行更新。
-
-```shell
-// 使用固定版本号的压缩包
-npm i -S https://github.com/flyseamomo/wx_open/archive/v1.0.7.tar.gz
-```
 
 
 ## 描述
