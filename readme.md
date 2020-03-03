@@ -33,9 +33,8 @@
 本包依赖redis数据库，用来存储各种token数据
 
 
-## 更新日志
-
-版本变化与更新日志请移步[CHANGELOG](./CHANGELOG)
+demo参考
+https://github.com/flyseamomo/wx_open_demo
 
 ## 使用方法：
 ```js
